@@ -1,4 +1,4 @@
-import { Heading, HStack, Grid, Img, Flex, Text } from "@chakra-ui/react";
+import { Heading, HStack, Grid, Img } from "@chakra-ui/react";
 
 const Comp1 = (props) => {
   let temperature = props?.weather?.daily[0]?.temp?.day - 273.15;
